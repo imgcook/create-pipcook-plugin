@@ -38,7 +38,7 @@ Supported categories of plugin are:
 To create a Python plugin:
 
 ```sh
-$ npm init @pipcook/create-pipcook-plugin --python
+$ npm init @pipcook/pipcook-plugin --python
 ```
 
 ## How to write a template for new plugin
