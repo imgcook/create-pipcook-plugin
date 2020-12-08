@@ -8,22 +8,22 @@ The are many ways to create a plugin for Pipcook.
 
 ```sh
 # via NPM
-$ npm init @pipcook/create-pipcook-plugin --category data-collect --python my-plugin
+$ npm init @pipcook/pipcook-plugin --category data-collect my-plugin
 
 # via Pipcook
-$ pipcook plugin create-data-collect ./my-plugin
+$ pipcook plugin create my-plugin --category data-collect
 ```
 
 To create a TypeScript(default) plugin:
 
 ```sh
-$ npm init @pipcook/create-pipcook-plugin my-plugin
+$ npm init @pipcook/pipcook-plugin my-plugin
 ```
 
 To create a plugin with its category:
 
 ```sh
-$ npm init @pipcook/create-pipcook-plugin --category data-collect my-plugin
+$ npm init @pipcook/pipcook-plugin --category data-collect my-plugin
 ```
 
 Supported categories of plugin are:
