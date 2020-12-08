@@ -1,0 +1,32 @@
+{
+  "name": "@pipcook/create-pipcook-plugin",
+  "version": "1.0.0",
+  "description": "Create plugin for Pipcook in only one command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imgcook/create-pipcook-plugin.git"
+  },
+  "keywords": [
+    "pipcook",
+    "plugin"
+  ],
+  "bin": {
+    "@pipcook/create-pipcook-plugin": "index.js"
+  },
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imgcook/create-pipcook-plugin/issues"
+  },
+  "homepage": "https://github.com/imgcook/create-pipcook-plugin#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "fs-extra": "^9.0.1",
+    "semver": "^7.3.4"
+  }
+}
