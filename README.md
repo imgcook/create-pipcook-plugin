@@ -1,6 +1,6 @@
-# create-pipcook-plugin
+# @pipcook/create-pipcook-plugin
 
-Create plugin for Pipcook in only one command.
+Create plugin for Pipcook in only one command via [npm-init](https://docs.npmjs.com/cli/v6/commands/npm-init).
 
 ## Getting started
 
