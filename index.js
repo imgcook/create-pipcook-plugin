@@ -8,8 +8,8 @@ const createPlugin = require('./create-pipcook-plugin');
 let projectName;
 
 function abort(msg) {
-	console.error(chalk.red(msg));
-	process.exit(1);
+  console.error(chalk.red(msg));
+  process.exit(1);
 }
 
 const program = new commander.Command(packageJson.name)
@@ -26,8 +26,8 @@ const program = new commander.Command(packageJson.name)
 
 const { category, python } = program;
 createPlugin(projectName, {
-	template: `v1-${python ? 'python' : 'default'}-${category}`,
-	pipcook: '1',
-	python,
-	category,
+  template: `v1-${python ? 'python' : 'default'}-${category}`,
+  pipcook: '1',
+  python,
+  category,
 });
